@@ -51,7 +51,7 @@ p {
 }
 
 a {
-  color: #222222;
+  color: #ffffff;
 }
 
 a:hover, a:focus {text-decoration: underline;}
@@ -230,6 +230,13 @@ Full-Width Styles
   width:50%;
   max-width:none;
   padding:0;
+}
+
+footer{
+  width:100%;
+  text-align: right;
+  position:absolute;
+  bottom:0;
 }
 
 /*******************************************************************************
