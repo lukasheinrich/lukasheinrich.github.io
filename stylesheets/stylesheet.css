@@ -1,9 +1,11 @@
 body {
   box-sizing: border-box;
-  color:#eeeeee;
-  background: url('../images/atlas.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
+  color:#ffffff;
+  background: url(../images/atlas.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,7 +15,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#eeeeee;
+  color:#ffffff;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
@@ -177,9 +179,29 @@ form {
   padding: 20px;
 }
 
-.serviceicon{
-  width:100px;
+
+#servicelist{
+  width:50%;
+  min-width:200px;
+  padding:0;
+  margin:auto;
+  list-style-type: none;
+  display: table;
+  table-layout: fixed;
 }
+
+#servicelist li{
+  display:table-cell;
+}
+
+#servicelist img{
+  width:75px;
+  display:block;
+  margin:auto;
+  vertical-align:middle;
+}
+
+
 
 /*******************************************************************************
 Full-Width Styles
@@ -196,29 +218,19 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#header_wrap {
-}
-
-#header_wrap .inner {
-  padding: 50px 10px 30px 10px;
-}
-
-#project_title {
-  margin: 0;
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+#main_content_wrap{
+  min-height:500px;
 }
 
 #main_content {
-  padding-top: 40px;
+  position:absolute;
+  margin:auto;
+  top:50%;
+  left:25%;
+  width:50%;
+  max-width:none;
+  padding:0;
 }
-
-#footer_wrap {
-}
-
-
 
 /*******************************************************************************
 Small Device Styles
