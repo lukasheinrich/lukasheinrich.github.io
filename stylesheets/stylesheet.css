@@ -203,6 +203,10 @@ form {
   vertical-align:middle;
 }
 
+#servicelist img:hover{
+  -webkit-filter: brightness(0.5) sepia(1) saturate(10) hue-rotate(20deg)
+}
+
 #sub{
   padding:0;
   margin:0;
