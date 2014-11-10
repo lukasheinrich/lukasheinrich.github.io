@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
   color:#ffffff;
+  border:0;
   background: url(../images/atlas.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,6 +11,7 @@ body {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  overflow:hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
